@@ -355,16 +355,19 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  list-style-type: none;
-  text-decoration: none;
   color: #F2F2F2;
+  text-decoration: none;
 }
 .footer__list {
   padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-decoration: none;
   margin: 0;
+}
+.footer__list-element {
+  list-style-type: none;
 }
 .logo_place_footer {
   width: 183px;
