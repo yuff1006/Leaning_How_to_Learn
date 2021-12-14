@@ -1,5 +1,7 @@
 .logo_place_footer {
-    width: 183px;
-    height: 35px;
-    align-self: start;
-  }
+  width: 183px;
+  height: 35px;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+}

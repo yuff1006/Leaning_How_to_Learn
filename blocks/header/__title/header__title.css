@@ -1,9 +1,12 @@
 .header__title {
-    width: 730px;
-    margin: 0 0 0 64px;
-    align-self: center;
-    z-index: 1;
-    line-height: 96px;
-    font-size: 102px;
-    font-weight: bold;
-  }
+  width: 730px;
+  margin: 0 0 0 64px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  z-index: 1;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  padding: 0;
+}

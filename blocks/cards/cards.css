@@ -1,7 +1,10 @@
 .cards {
-    max-width: 920px;
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    padding: 0;
+  max-width: 920px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
 }
