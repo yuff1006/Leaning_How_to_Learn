@@ -1,0 +1,7 @@
+.feynman {
+    background-color: #F2F2F2;
+    min-height: 790px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }

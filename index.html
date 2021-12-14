@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/normalize.css" />
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Learning how to learn</title>
 </head>
 <body>
@@ -18,8 +18,9 @@
       <img class="header__main-illustration" src='./images/header-image.png'
         alt="Epic ponderer stood on a mountaintop deliberating over the finer points of the modern educational system,
         while also wondering where that giant blue square came from.">
-      <div class="header__square"></div>
+      <div class="header__square rotation"></div>
     </header>
+
     <main class="content">
       <section class="description">
         <article class="two-columns description__two-columns">
@@ -43,6 +44,77 @@
             </p>
           </div>
         </article>
+      </section>
+
+      <section class="techniques">
+        <h2 class="section-title techniques__title">Learning Techniques</h2>
+        <p class="section-subtitle techniques__subtitle">Five Strategies from Barbara Oakley</p>
+        <ul class="cards techniques__cards">
+          <li class="cards__item">
+            <img class="cards__image" alt="two hands holding a book" src="./images/cards-attention.png">
+            <h3 class="cards__title">Two Ways of Thinking</h3>
+            <p class="cards__description">Deep understanding comes from being able to toggle back and forth between focused and diffused thinking.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" alt="a statue character thinking and recalling" src="./images/cards-recall.png">
+            <h3 class="cards__title">Recall</h3>
+            <p class="cards__description">Improving your ability to remember key bits of information helps to connect different part of the brain.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" alt="a train station that looks symetrical and interleaving" src="./images/cards-interleaving.png">
+            <h3 class="cards__title">Interleaving</h3>
+            <p class="cards__description">When you learn multiple skills at the same time, they reinforce each other.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" alt="one person standing in space comtemplating" src="./images/cards-question.png">
+            <h3 class="cards__title">Questions</h3>
+            <p class="cards__description">When listening to your teacher, think up a good question, something that you're really itching to know.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" alt="one person standing in space comtemplating" src="./images/cards-competence.png">
+            <h3 class="cards__title">Illusion of Competence</h3>
+            <p class="cards__description">Test yourself, write it down, tell other people, and repeat the process in different settings. Only then can you be truly certain you've understood something.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="video">
+        <h2 class="section-title video__title">TED talks</h2>
+        <p class="section-subtitle video__subtitle">For lovers of procrastination</p>
+        <div class="video__iframes">
+          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section class="oakley">
+        <article class="two-columns oakley__two-columns">
+          <h2 class="two-columns__brief">Barbara Oakley’s story.</h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">
+              Math didn't come naturally to Barbara in childhood. She thought of herself as more of a
+              humanities person, and not a brilliant one at that. With an eye to becoming a linguist, after
+              school she enlisted in the army, who sent her to learn Russian. After several years of service,
+              during which she rose to the rank of Captain, Barbara left the army and decided to study
+              engineering. In was during this time that she developed her learning methodology as she was
+              forced to reprogram her brain for a different kind of learning. It turns out that when something
+              doesn't come naturally to you, having to work hard to gain the knowledge that other people
+              may get at first glance gives you a deeper, more comprehensive understanding of the subject matter.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="feynman">
+        <h2 class="feynman__title">The Feynman Technique</h2>
+        <p class="feynman__subtitle">Learn without forgetting</p>
+        <a href="https://www.colorado.edu/artssciences-advising/resource-library/life-skills/the-feynman-technique-in-academic-coaching" class="feynman__link">More &#8594;</a>
+        <img class="feynman__image" alt="A picture of Richard Feynman, a world-renowned quantum physicist.
+        The Feynman Technique is derived from his studying methods when he was a student at Princeton" src="./images/feynman.png">
       </section>
 
       <section class="digits">
@@ -86,12 +158,23 @@
         </ul>
       </section>
 
-      <section class="feynman">
-        <h2 class="feynman__title">The Feynman Technique</h2>
-        <p class="feynman__subtitle">Learn without forgetting</p>
-        <a href="https://www.colorado.edu/artssciences-advising/resource-library/life-skills/the-feynman-technique-in-academic-coaching" class="feynman__link">More &#8594;</a>
-        <img class="feynman__image" alt="A picture of Richard Feynman, a world-renowned quantum physicist.
-        The Feynman Technique is derived from his studying methods when he was a student at Princeton" src="./images/feynman.png">
+      <section class="khan">
+        <article class="khan__container">
+          <p class="khan__author">Salman Khan</p>
+          <h2 class="khan__title">The One World Schoolhouse</h2>
+          <blockquote class="khan__quote">
+            Sal Khan's passion and innovation is transforming learning for millions of
+            students worldwide. The One World Schoolhouse is a must-read for all
+            who are committed to improving education so students everywhere can
+            gain the skills and knowledge to be successful in school, careers and life.
+          </blockquote>
+          <p class="khan__quote-author">George Lucas</p>
+          <p class="khan__quote-author-subline">Filmmaker</p>
+          <div class="khan__book-container">
+            <img src="./images/khan-book-2.png" class="khan__book-pic" alt="the book cover of Salman Khan's The One World Schoolhouse">
+            <a href="" class="khan__buy-link">Buy book →</a>
+          </div>
+        </article>
       </section>
 
       <section class="kaufman">
@@ -139,8 +222,20 @@
             <p class="table__text table__text_theme_dark">Emphasize quantity and speed</p>
           </li>
         </ul>
-        <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" alt="A big blue triangle, over which Josh Kaufman claims ownership">
+        <img class="kaufman__triangle rotation" src="./images/kaufman-triangle.svg" alt="A big blue triangle, over which Josh Kaufman claims ownership">
       </section>
+
+      <section class="resources">
+        <h2 class="section-title resources__title">Useful resources</h2>
+        <p class="section-subtitle resources__subtitle">Further materials on learning techniques and hacks.</p>
+        <div class="resources__logo-zone">
+          <a href="https://ed.ted.com"><img class="resources__logo" src="./images/logo/resources-tedED.png" alt="TED Ed website logo"></a>
+          <a href="https://medium.com"><img class="resources__logo" src="./images/logo/resources-Medium.png" alt="Mediun website logo"></a>
+          <a href="https://www.dezeen.com"><img class="resources__logo" src="./images/logo/resources-dezeen.png" alt="de zeen website logo"></a>
+          <a href="https://www.goodreads.com"><img class="resources__logo" src="./images/logo/resources-goodreads.png" alt="good reads website logo"></a>
+        </div>
+      </section>
+
     </main>
     <footer class="footer">
       <div class="footer__columns">
