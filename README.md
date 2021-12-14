@@ -1,6 +1,7 @@
 # Web Project 1: Learning How to Learn
 
-## :woman_technologist: Languages used: HTML and CSS
+## :woman_technologist: Languages used: 
+HTML and CSS
 
 ## :open_book: Techniques used: 
 Flexbox, Positioning, Block Overflow, Animation, iframe embedding, BEM file structure, vendor prefixes and smooth transition.
