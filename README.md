@@ -2,7 +2,8 @@
 
 ## :woman_technologist: Languages used: HTML and CSS
 
-## :open_book: Techniques used: Flexbox, Positioning, Block Overflow, Animation, iframe embedding, BEM file structure, vendor prefixes and smooth transition.
+## :open_book: Techniques used: 
+Flexbox, Positioning, Block Overflow, Animation, iframe embedding, BEM file structure, vendor prefixes and smooth transition.
 
 ## :scroll: Plans for finalizing: 
 * adding a form for user comments
