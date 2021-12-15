@@ -1,7 +1,8 @@
 .khan__book-pic {
   width: 620px;
+  height: 602px;
   -o-object-fit: cover;
      object-fit: cover;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  -o-object-position: center top;
+     object-position: center top;
 }
