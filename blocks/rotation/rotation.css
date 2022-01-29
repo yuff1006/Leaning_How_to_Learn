@@ -23,4 +23,5 @@
 .rotation {
   -webkit-animation: rotation infinite 20s linear;
           animation: rotation infinite 20s linear;
+          overflow: hidden;
 }
